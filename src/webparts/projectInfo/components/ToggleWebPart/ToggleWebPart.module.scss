@@ -1,0 +1,62 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.ToggleWebPart {
+
+    .ToggleWebPartTitle {
+      color: "[theme: white, default: #ffffff]";
+      background-color: "[theme: themePrimary, default: #0078d7]";
+      cursor: pointer;
+  
+      h3 {
+        margin: 0;
+        padding: 10px 60px 10px 10px;
+        font-size: 18px;
+        font-weight: 100;
+      }
+  
+      .ToggleIconSpace {
+        float: right;
+        width: 50px;
+        padding-top:12px; 
+        text-align: center;
+        
+        .ToggleIconUp {
+          color: "[theme: white, default: #ffffff]";
+          font-size: 24px;
+          transition: 0.5s;
+          transform:rotate3d(0);
+        }
+
+        .ToggleIconDown {
+          color: "[theme: white, default: #ffffff]";
+          font-size: 24px;
+          transition: 0.5s;
+          transform:rotate3d(1, 0, 0, 180deg);
+        }
+  
+        .ToggleIcon {
+          color: "[theme: white, default: #ffffff]";
+          font-size: 24px;
+          transition: 1s;
+        } 
+  
+      }
+    }
+  
+    .ToggleWebPartContent {
+      padding: 20px;
+      border: 1px solid #dadada;
+      transition: 0.5s;
+      overflow: hidden;
+      height: auto;
+    }
+
+    .ToggleWebPartContentClose {
+      padding: 0px;
+      border: 1px solid #dadada;
+      height: 0;
+      overflow: hidden;
+      transition: 0.5s;
+    }
+  
+  }

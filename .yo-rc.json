@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.11.0",
+    "libraryName": "spfx-tasks-project-info-webpart",
+    "libraryId": "d8c3cb24-d76b-4ad5-83ce-315446a966db",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

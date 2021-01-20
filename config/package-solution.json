@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-tasks-project-info-webpart-client-side-solution",
+    "id": "d8c3cb24-d76b-4ad5-83ce-315446a966db",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-tasks-project-info-webpart.sppkg"
+  }
+}

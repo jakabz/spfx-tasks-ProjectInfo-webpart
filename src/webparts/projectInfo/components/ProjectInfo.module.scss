@@ -1,0 +1,44 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+
+.projectInfo {
+  
+  .projectInfoFrom {
+    width: 100%;
+
+    .leftSide {
+      width: calc(50% - 10px);
+      float: left;
+      margin-right: 10px;
+    }
+
+    .rightSide {
+      width: calc(50% - 10px);
+      float: left;
+      margin-left: 10px;
+    }
+
+  }
+
+  .clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+  }
+
+  .Toolbar {
+    border-top: 1px solid silver;
+    margin-top: 10px;
+    padding-top: 10px;
+
+    .rightSide {
+      text-align: right;
+    }
+
+    .ToolbarInputs [class*="ms-TextField"] {
+      margin-bottom: 5px;
+    }
+  }
+}
+
